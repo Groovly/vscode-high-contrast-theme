@@ -1,0 +1,27 @@
+{
+    "name": "groovly-high-contrast",
+    "publisher": "Groovly",
+    "displayName": "Groovly High-Contrast Themes",
+    "description": "Groovly's high-contrast color themes",
+    "version": "1.0.0",
+    "engines": {
+        "vscode": "^1.47.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Groovly High Contrast (Light)",
+                "uiTheme": "hc-black",
+                "path": "./themes/groovly-high-contrast-light-color-theme.json"
+            },
+            {
+                "label": "Groovly High Contrast (Dark)",
+                "uiTheme": "hc-black",
+                "path": "./themes/groovly-high-contrast-dark-color-theme.json"
+            }
+        ]
+    }
+}
