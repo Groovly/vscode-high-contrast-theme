@@ -1,8 +1,8 @@
 {
-    "name": "groovly-high-contrast",
+    "name": "high-contrast-theme",
     "publisher": "Groovly",
-    "displayName": "Groovly High-Contrast Themes",
-    "description": "Groovly's high-contrast color themes",
+    "displayName": "Groovly Theme",
+    "description": "Groovly's high-contrast color theme, including dark and light variations.",
     "version": "1.0.0",
     "engines": {
         "vscode": "^1.47.0"

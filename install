@@ -1,0 +1,39 @@
+#!/usr/bin/env python3
+
+import json
+import os
+import shutil
+import sys
+
+from os.path import expanduser
+
+HOME_DIR = expanduser('~')
+CWD = os.getcwd()
+
+if __name__ == "__main__":
+  try:
+    with open('package.json', 'r') as f:
+      p = json.load(f)
+      EXTENSION_NAME = '{}.{}-{}'.format(
+        p['publisher'],
+        p['name'],
+        p['version']
+      ).lower()
+
+    VS_CODE_EXTENSION_DIR = os.path.join(HOME_DIR, '.vscode/extensions/' + EXTENSION_NAME)
+    CODIUM_EXTENSION_DIR = os.path.join(HOME_DIR, '.vscode-oss/extensions/' + EXTENSION_NAME)
+
+    print('Installing extension \'{}\' from \'{}\''.format(EXTENSION_NAME, CWD))
+
+    print('Deleting Visual Studio Code extension directory: \'{}\''.format(VS_CODE_EXTENSION_DIR))
+    shutil.rmtree(VS_CODE_EXTENSION_DIR, ignore_errors=True)
+    print('Copying Visual Studio Code extension to \'{}\''.format(VS_CODE_EXTENSION_DIR))
+    shutil.copytree(CWD, VS_CODE_EXTENSION_DIR, dirs_exist_ok=True)
+
+    print('Deleting Codium extension directory: \'{}\''.format(VS_CODE_EXTENSION_DIR))
+    shutil.rmtree(CODIUM_EXTENSION_DIR, ignore_errors=True)
+    print('Copying Codium extension to \'{}\''.format(CODIUM_EXTENSION_DIR))
+    shutil.copytree(CWD, CODIUM_EXTENSION_DIR, dirs_exist_ok=True)
+  except Exception as e:
+    print('ERROR!!', e)
+    sys.exit(1)
