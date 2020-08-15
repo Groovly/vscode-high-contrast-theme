@@ -83,9 +83,9 @@
     "editorSuggestWidget.border":"#aaa",
 
     // LINE NUMBER
-    "editorLineNumber.foreground": "#bbb",
     "editorLineNumber.activeForeground": "#000",
-    "editor.lineHighlightBorder": "#000a",
+    "editorLineNumber.foreground": "#bbb",
+    "editor.lineHighlightBorder": "#aaa",
 
     "editorGutter.background": "#f8f8f8",
 
@@ -93,6 +93,18 @@
     "scrollbarSlider.background":"#0005",
     "scrollbarSlider.hoverBackground": "#0008",
     "scrollbarSlider.activeBackground": "#000a",
+
+    // MINIMAP
+    "minimap.background": "#eeea",
+    "minimapSlider.background": "#ccc6",
+    "minimapSlider.hoverBackground": "#aaa6",
+    "minimapSlider.activeBackground": "#8886",
+
+    "minimap.findMatchHighlight": "#2196f3",
+    "minimap.selectionHighlight":  "#2196f3",
+    // hide error & warning minimap indicators
+    "minimap.errorHighlight":  "#f000",
+    "minimap.warningHighlight": "#f000",
 
     // EDITOR CODE LINTING
     // "editorError.foreground": "#f00",
