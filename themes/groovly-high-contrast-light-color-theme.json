@@ -70,6 +70,12 @@
     "editor.findMatchHighlightBorder": "#000",
     "editor.findRangeHighlightBorder": "#000",
 
+    // EDITOR WHITE SPACE, RULERS AND INDENTATION GUIDES
+    "editorRuler.foreground": "#ccca",
+    "editorWhitespace.foreground": "#aaa6",
+    "editorIndentGuide.background": "#aaa6",
+    "editorIndentGuide.activeBackground": "#2226",
+
     "editorWidget.foreground": "#000",
     "editorWidget.background": "#fff",
     "editorWidget.border": "#aaa",
