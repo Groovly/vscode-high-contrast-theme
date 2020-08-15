@@ -5,6 +5,11 @@
     "foreground": "#000",
     "focusBorder": "#2196f3",
 
+    // UI control separator border
+    "contrastBorder": "#aaa",
+
+    // active element border
+    "contrastActiveBorder": "#aaa",
     // Title bar
     "titleBar.activeForeground": "#aaa",
     "titleBar.activeBackground": "#fff",
@@ -24,11 +29,6 @@
     "checkbox.background": "#aaa",
     "checkbox.border": "#666",
 
-    // UI control separator border
-    "contrastBorder": "#aaa",
-
-    // active element border
-    "contrastActiveBorder": "#aaa0",
     "selection.background": "#2196f3",
     "dropdown.foreground": "#222",
     "dropdown.background": "#eee",
@@ -88,6 +88,7 @@
     "editor.lineHighlightBorder": "#000a",
 
     "editorGutter.background": "#f8f8f8",
+
     // SCROLL BARS
     "scrollbarSlider.background":"#0005",
     "scrollbarSlider.hoverBackground": "#0008",

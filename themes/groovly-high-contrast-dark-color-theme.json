@@ -5,6 +5,12 @@
     "foreground": "#fff",
     "focusBorder": "#2196f3",
 
+    // UI control separator border
+    "contrastBorder": "#555",
+
+    // active element border
+    "contrastActiveBorder": "#555",
+
     // Title bar
     "titleBar.activeForeground": "#555",
     "titleBar.activeBackground": "#000",
@@ -24,11 +30,6 @@
     "checkbox.background": "#555",
     "checkbox.border": "#999",
 
-    // UI control separator border
-    "contrastBorder": "#555",
-
-    // active element border
-    "contrastActiveBorder": "#5550",
     "selection.background": "#2196f3",
     "dropdown.foreground": "#ddd",
     "dropdown.background": "#111",
