@@ -5,6 +5,11 @@
     "foreground": "#000",
     "focusBorder": "#2196f3",
 
+    // "editorGroup.emptyBackground": "#aaa",
+    "welcomePage.background": "#f8f8f8",
+    "welcomePage.buttonBackground": "#eee",
+    "welcomePage.buttonHoverBackground": "#ddd",
+
     // UI control separator border
     "contrastBorder": "#aaa",
 
@@ -19,7 +24,7 @@
     // "window.inactiveBorder": "#ff0000",
     "icon.foreground": "#000",
 
-    "button.foreground": "#000",
+    "button.foreground": "#fff",
     "button.background": "#2196f3",
     "button.hoverBackground": "#5be",
     "button.secondaryForeground": "#000",
@@ -77,7 +82,7 @@
     "editorIndentGuide.activeBackground": "#2226",
 
     "editorWidget.foreground": "#000",
-    "editorWidget.background": "#fff",
+    "editorWidget.background": "#f8f8f8",
     "editorWidget.border": "#aaa",
 
     // HOVER WIDGET
@@ -129,7 +134,7 @@
     "tab.border": "#aaa",
     "tab.activeForeground": "#000",
     "tab.inactiveForeground": "#aaa",
-    "tab.inactiveBackground": "#fff",
+    "tab.inactiveBackground": "#f8f8f8",
     "tab.hoverBackground":"#ddd",
 
     // BREADCRUMBS
