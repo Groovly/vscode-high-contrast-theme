@@ -16,8 +16,10 @@
     // active element border
     "contrastActiveBorder": "#aaa",
     // Title bar
-    "titleBar.activeForeground": "#aaa",
-    "titleBar.activeBackground": "#fff",
+    "titleBar.activeForeground": "#555",
+    "titleBar.activeBackground": "#f8f8f8",
+    "titleBar.inactiveForeground": "#888",
+    "titleBar.inactiveBackground": "#ddd",
     "titleBar.border": "#aaa",
 
     // "window.activeBorder": "#ff0000",
