@@ -5,7 +5,7 @@
     "foreground": "#000",
     "focusBorder": "#2196f3",
 
-    // "editorGroup.emptyBackground": "#aaa",
+    // "editorGroup.emptyBackground": "#f8f8f8",
     "welcomePage.background": "#f8f8f8",
     "welcomePage.buttonBackground": "#eee",
     "welcomePage.buttonHoverBackground": "#ddd",
@@ -15,6 +15,7 @@
 
     // active element border
     "contrastActiveBorder": "#aaa",
+
     // Title bar
     "titleBar.activeForeground": "#555",
     "titleBar.activeBackground": "#f8f8f8",
@@ -58,16 +59,20 @@
     ////////////////////////////////////////////////////////////////
     // CODE EDITOR
     ////////////////////////////////////////////////////////////////
-    "editorCursor.background":"#000",
-    "editorCursor.foreground":"#f00",
-    "editorBracketMatch.border": "#2196f366",
-    "editorBracketMatch.background":"#eee",
-
     "editor.foreground": "#222", // non-symbol code color
     "editor.background": "#f8f8f8", // negative space space color
 
+    // BORDER SEPARATING EDITOR FROM TABS
+    "editorGroupHeader.tabsBorder": "#aaa",
+    "editorGroupHeader.tabsBackground": "#f8f8f8",
+
+    "editorCursor.foreground":"#f00",
+    "editorCursor.background":"#000",
+    "editorBracketMatch.border": "#2196f366",
+    "editorBracketMatch.background":"#eee",
+
     "editor.selectionForeground": "#fff", // selected text color
-    "editor.selectionBackground": "#2196f3", // selected text background color
+    "editor.selectionBackground": "#2196f370", // selected text background color
     "editor.inactiveSelectionBackground":"#999",
 
     "editor.selectionHighlightBorder": "#0000",

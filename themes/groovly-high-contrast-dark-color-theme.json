@@ -5,7 +5,7 @@
     "foreground": "#fff",
     "focusBorder": "#2196f3",
 
-    // "editorGroup.emptyBackground": "#555",
+    // "editorGroup.emptyBackground": "#070707",
     "welcomePage.background": "#070707",
     "welcomePage.buttonBackground": "#111",
     "welcomePage.buttonHoverBackground": "#222",
@@ -59,16 +59,20 @@
     ////////////////////////////////////////////////////////////////
     // CODE EDITOR
     ////////////////////////////////////////////////////////////////
-    "editorCursor.background":"#fff",
-    "editorCursor.foreground":"#f00",
-    "editorBracketMatch.border": "#2196f366",
-    "editorBracketMatch.background":"#111",
-
     "editor.foreground": "#ddd", // non-symbol code color
     "editor.background": "#070707", // negative space space color
 
+    // BORDER SEPARATING EDITOR FROM TABS
+    "editorGroupHeader.tabsBorder": "#555",
+    "editorGroupHeader.tabsBackground": "#070707",
+
+    "editorCursor.foreground":"#f00",
+    "editorCursor.background":"#fff",
+    "editorBracketMatch.border": "#2196f366",
+    "editorBracketMatch.background":"#111",
+
     "editor.selectionForeground": "#000", // selected text color
-    "editor.selectionBackground": "#2196f3", // selected text background color
+    "editor.selectionBackground": "#2196f370", // selected text background color
     "editor.inactiveSelectionBackground":"#666",
 
     "editor.selectionHighlightBorder": "#fff0",
