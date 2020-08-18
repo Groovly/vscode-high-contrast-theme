@@ -14,12 +14,12 @@
         "themes": [
             {
                 "label": "Groovly High Contrast (Light)",
-                "uiTheme": "hc-black",
+                "uiTheme": "vs",
                 "path": "./themes/groovly-high-contrast-light-color-theme.json"
             },
             {
                 "label": "Groovly High Contrast (Dark)",
-                "uiTheme": "hc-black",
+                "uiTheme": "vs-dark",
                 "path": "./themes/groovly-high-contrast-dark-color-theme.json"
             }
         ]

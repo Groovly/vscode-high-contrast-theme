@@ -1,6 +1,6 @@
 {
-  "name": "Groovly High Contrast (Dark)",
-  "type": "dark",
+  "name": "Groovly High Contrast (Light)",
+  "type": "light",
   "colors": {
     "foreground": "#fff",
     "focusBorder": "#2196f3",
