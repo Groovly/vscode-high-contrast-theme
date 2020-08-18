@@ -41,10 +41,11 @@
     "dropdown.background": "#eee",
     "dropdown.listBackground": "#eee",
     "dropdown.border": "#aaa",
-    // "widget.shadow": "#ddd",
 
-    "input.background": "#eee",
-    "input.border": "#aaa",
+    // "widget.shadow": "#ddd",
+    // FIND WIDGET OPTION BUTTONS (match case, match word, regex, etc)
+    "input.background": "#eeec",
+    "input.border": "#aaaa",
     "input.placeholderForeground": "#aaa",
 
     "inputOption.activeForeground": "#000",
@@ -59,9 +60,10 @@
     ////////////////////////////////////////////////////////////////
     "editorCursor.background":"#000",
     "editorCursor.foreground":"#f00",
-    "editorBracketMatch.border": "#f00",
+    "editorBracketMatch.border": "#2196f366",
+    "editorBracketMatch.background":"#eee",
 
-    "editor.foreground": "#000", // non-symbol code color
+    "editor.foreground": "#222", // non-symbol code color
     "editor.background": "#f8f8f8", // negative space space color
 
     "editor.selectionForeground": "#fff", // selected text color
@@ -83,9 +85,9 @@
     "editorIndentGuide.background": "#aaa6",
     "editorIndentGuide.activeBackground": "#2226",
 
-    "editorWidget.foreground": "#000",
-    "editorWidget.background": "#f8f8f8",
-    "editorWidget.border": "#aaa",
+    "editorWidget.foreground": "#000c",
+    "editorWidget.background": "#f8f8f8dd",
+    "editorWidget.border": "#aaac",
 
     // HOVER WIDGET
     "editorHoverWidget.background":"#eee",
