@@ -127,14 +127,14 @@
     "minimap.warningHighlight": "#f000",
 
     // EDITOR CODE LINTING
-    // "editorError.foreground": "#f00",
-    "editorError.border": "#f00",
-    // "editorWarning.foreground": "#fb0",
-    "editorWarning.border": "#fb0",
-    // "editorInfo.foreground": "#0cf",
-    "editorInfo.border": "#0cf",
-    // "editorHint.foreground": "#0f0",
-    "editorHint.border": "#555",
+    "editorError.foreground": "#f00",
+    // "editorError.border": "#f00",
+    "editorWarning.foreground": "#fb0",
+    // "editorWarning.border": "#fb0",
+    "editorInfo.foreground": "#0cf",
+    // "editorInfo.border": "#0cf",
+    "editorHint.foreground": "#0f0",
+    // "editorHint.border": "#555",
 
     // TABS
     // "tab.activeBorder": "#2196f3",
@@ -214,9 +214,17 @@
     ////////////////////////////////////////////////////////////////
     // STATUS BAR
     ////////////////////////////////////////////////////////////////
-    "statusBar.background": "#111",
+    "statusBar.noFolderForeground": "#999",
+    "statusBar.noFolderBackground": "#111",
+    "statusBar.noFolderBorder":"#555",
+
     "statusBar.foreground": "#999",
+    "statusBar.background": "#111",
     "statusBar.border":"#555",
+
+    "statusBar.debuggingForeground": "#070707",
+    "statusBar.debuggingBackground": "#2196f3",
+    "statusBar.debuggingBorder":"#555",
 
     ////////////////////////////////////////////////////////////////
     // INTEGRATED TERMINAL
