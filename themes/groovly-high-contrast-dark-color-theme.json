@@ -18,9 +18,9 @@
 
     // Title bar
     "titleBar.activeForeground": "#aaa",
-    "titleBar.activeBackground": "#070707",
-    "titleBar.inactiveForeground": "#777",
-    "titleBar.inactiveBackground": "#222",
+    "titleBar.activeBackground": "#111",
+    "titleBar.inactiveForeground": "#555",
+    "titleBar.inactiveBackground": "#111",
     "titleBar.border": "#555",
 
     // "window.activeBorder": "#ff0000",
@@ -43,7 +43,7 @@
     "dropdown.listBackground": "#111",
     "dropdown.border": "#555",
 
-    // "widget.shadow": "#222",
+    "widget.shadow": "#0000",
     // FIND WIDGET OPTION BUTTONS (match case, match word, regex, etc)
     "input.background": "#111c",
     "input.border": "#555a",
@@ -64,7 +64,7 @@
 
     // BORDER SEPARATING EDITOR FROM TABS
     "editorGroupHeader.tabsBorder": "#555",
-    "editorGroupHeader.tabsBackground": "#070707",
+    "editorGroupHeader.tabsBackground": "#111",
 
     "editorCursor.foreground":"#f00",
     "editorCursor.background":"#fff",
@@ -80,7 +80,7 @@
 
     "editor.rangeHighlightBorder":"#2196f3",
     "editor.findMatchBorder": "#2196f3",
-    "editor.findMatchBackground":"#2196f3",
+    "editor.findMatchBackground":"#2196f340",
     "editor.findMatchHighlightBorder": "#fff",
     "editor.findRangeHighlightBorder": "#fff",
 
@@ -91,7 +91,7 @@
     "editorIndentGuide.activeBackground": "#ddd6",
 
     "editorWidget.foreground": "#fffc",
-    "editorWidget.background": "#070707dd",
+    "editorWidget.background": "#111d",
     "editorWidget.border": "#555c",
 
     // HOVER WIDGET
@@ -142,12 +142,12 @@
     "tab.activeBackground": "#222",
     "tab.border": "#555",
     "tab.activeForeground": "#fff",
-    "tab.inactiveForeground": "#555",
-    "tab.inactiveBackground": "#070707",
+    "tab.inactiveForeground": "#777",
+    "tab.inactiveBackground": "#111",
     "tab.hoverBackground":"#222",
 
     // BREADCRUMBS
-    "breadcrumb.foreground": "#666",
+    "breadcrumb.foreground": "#777",
     "breadcrumb.background": "#070707",
     "breadcrumb.focusForeground": "#2196f3",
     "breadcrumb.activeSelectionForeground": "#fff",
@@ -336,6 +336,7 @@
         "foreground": "#777"
       }
     },
+    // YAML tag names, etc
     {
       "name": "Tag",
       "scope": [
@@ -344,7 +345,7 @@
         "markup.deleted.git_gutter"
       ],
       "settings": {
-        "foreground": "#f07178"
+        "foreground": "#c3f"
       }
     },
     {
@@ -623,15 +624,15 @@
         "foreground": "#FF5370"
       }
     },
-    // {
-    //   "name": "JSON Key - Level 0",
-    //   "scope": [
-    //     "source.json meta.structure.dictionary.json support.type.property-name.json"
-    //   ],
-    //   "settings": {
-    //     "foreground": "#C792EA"
-    //   }
-    // },
+    {
+      "name": "JSON Key - Level 0",
+      "scope": [
+        "source.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#c3f"
+      }
+    },
     // {
     //   "name": "JSON Key - Level 1",
     //   "scope": [
@@ -711,7 +712,7 @@
         "punctuation.definition.list_item.markdown"
       ],
       "settings": {
-        "foreground": "#fff"
+        "foreground": "#ccc"
       }
     },
     {
@@ -736,7 +737,15 @@
       "name": "Markdown - Heading",
       "scope": [
         "markdown.heading",
-        "markup.heading | markup.heading entity.name",
+        "markup.heading | markup.heading entity.name"
+      ],
+      "settings": {
+        "foreground": "#0f0"
+      }
+    },
+    {
+      "name": "Markdown - Heading 2",
+      "scope": [
         "markup.heading.markdown punctuation.definition.heading.markdown"
       ],
       "settings": {

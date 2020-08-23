@@ -18,9 +18,9 @@
 
     // Title bar
     "titleBar.activeForeground": "#555",
-    "titleBar.activeBackground": "#f8f8f8",
-    "titleBar.inactiveForeground": "#888",
-    "titleBar.inactiveBackground": "#ddd",
+    "titleBar.activeBackground": "#eee",
+    "titleBar.inactiveForeground": "#aaa",
+    "titleBar.inactiveBackground": "#eee",
     "titleBar.border": "#aaa",
 
     // "window.activeBorder": "#ff0000",
@@ -43,7 +43,7 @@
     "dropdown.listBackground": "#eee",
     "dropdown.border": "#aaa",
 
-    // "widget.shadow": "#ddd",
+    "widget.shadow": "#0000",
     // FIND WIDGET OPTION BUTTONS (match case, match word, regex, etc)
     "input.background": "#eeec",
     "input.border": "#aaaa",
@@ -64,7 +64,7 @@
 
     // BORDER SEPARATING EDITOR FROM TABS
     "editorGroupHeader.tabsBorder": "#aaa",
-    "editorGroupHeader.tabsBackground": "#f8f8f8",
+    "editorGroupHeader.tabsBackground": "#eee",
 
     "editorCursor.foreground":"#f00",
     "editorCursor.background":"#000",
@@ -80,7 +80,7 @@
 
     "editor.rangeHighlightBorder":"#2196f3",
     "editor.findMatchBorder": "#2196f3",
-    "editor.findMatchBackground":"#2196f3",
+    "editor.findMatchBackground":"#2196f340",
     "editor.findMatchHighlightBorder": "#000",
     "editor.findRangeHighlightBorder": "#000",
 
@@ -91,7 +91,7 @@
     "editorIndentGuide.activeBackground": "#2226",
 
     "editorWidget.foreground": "#000c",
-    "editorWidget.background": "#f8f8f8dd",
+    "editorWidget.background": "#eeed",
     "editorWidget.border": "#aaac",
 
     // HOVER WIDGET
@@ -142,12 +142,12 @@
     "tab.activeBackground": "#ddd",
     "tab.border": "#aaa",
     "tab.activeForeground": "#000",
-    "tab.inactiveForeground": "#aaa",
-    "tab.inactiveBackground": "#f8f8f8",
+    "tab.inactiveForeground": "#888",
+    "tab.inactiveBackground": "#eee",
     "tab.hoverBackground":"#ddd",
 
     // BREADCRUMBS
-    "breadcrumb.foreground": "#999",
+    "breadcrumb.foreground": "#888",
     "breadcrumb.background": "#f8f8f8",
     "breadcrumb.focusForeground": "#2196f3",
     "breadcrumb.activeSelectionForeground": "#000",
@@ -335,6 +335,7 @@
         "foreground": "#888"
       }
     },
+    // YAML tag names, etc
     {
       "name": "Tag",
       "scope": [
@@ -343,7 +344,7 @@
         "markup.deleted.git_gutter"
       ],
       "settings": {
-        "foreground": "#f07178"
+        "foreground": "#c3f"
       }
     },
     {
@@ -622,15 +623,15 @@
         "foreground": "#FF5370"
       }
     },
-    // {
-    //   "name": "JSON Key - Level 0",
-    //   "scope": [
-    //     "source.json meta.structure.dictionary.json support.type.property-name.json"
-    //   ],
-    //   "settings": {
-    //     "foreground": "#C792EA"
-    //   }
-    // },
+    {
+      "name": "JSON Key - Level 0",
+      "scope": [
+        "source.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#c3f"
+      }
+    },
     // {
     //   "name": "JSON Key - Level 1",
     //   "scope": [
@@ -710,7 +711,7 @@
         "punctuation.definition.list_item.markdown"
       ],
       "settings": {
-        "foreground": "#000"
+        "foreground": "#333"
       }
     },
     {
