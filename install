@@ -10,7 +10,7 @@ from os.path import expanduser
 HOME_DIR = expanduser('~')
 CWD = os.getcwd()
 
-if __name__ == "__main__":
+if __name__ == '__main__':
   try:
     with open('package.json', 'r') as f:
       p = json.load(f)
@@ -20,20 +20,30 @@ if __name__ == "__main__":
         p['version']
       ).lower()
 
-    VS_CODE_EXTENSION_DIR = os.path.join(HOME_DIR, '.vscode/extensions/' + EXTENSION_NAME)
-    CODIUM_EXTENSION_DIR = os.path.join(HOME_DIR, '.vscode-oss/extensions/' + EXTENSION_NAME)
+    # extension dir(s)
+    VS_CODE_EXTENSION_DIR = os.path.join(HOME_DIR, '.vscode/extensions/')
+    CODIUM_EXTENSION_DIR = os.path.join(HOME_DIR, '.vscode-oss/extensions/')
 
-    print('Installing extension \'{}\' from \'{}\''.format(EXTENSION_NAME, CWD))
+    # theme dir(s)
+    VS_CODE_THEME_DIR = os.path.join(VS_CODE_EXTENSION_DIR, EXTENSION_NAME)
+    CODIUM_THEME_DIR = os.path.join(CODIUM_EXTENSION_DIR, EXTENSION_NAME)
 
-    print('Deleting Visual Studio Code extension directory: \'{}\''.format(VS_CODE_EXTENSION_DIR))
-    shutil.rmtree(VS_CODE_EXTENSION_DIR, ignore_errors=True)
-    print('Copying Visual Studio Code extension to \'{}\''.format(VS_CODE_EXTENSION_DIR))
-    shutil.copytree(CWD, VS_CODE_EXTENSION_DIR, dirs_exist_ok=True)
+    if os.path.exists(VS_CODE_EXTENSION_DIR):
+      if os.path.exists(VS_CODE_THEME_DIR):
+        print('Deleting Visual Studio Code theme directory: "{}"'.format(VS_CODE_THEME_DIR))
+        shutil.rmtree(VS_CODE_THEME_DIR, ignore_errors=True)
 
-    print('Deleting Codium extension directory: \'{}\''.format(VS_CODE_EXTENSION_DIR))
-    shutil.rmtree(CODIUM_EXTENSION_DIR, ignore_errors=True)
-    print('Copying Codium extension to \'{}\''.format(CODIUM_EXTENSION_DIR))
-    shutil.copytree(CWD, CODIUM_EXTENSION_DIR, dirs_exist_ok=True)
+      print('Installing theme to "{}"'.format(VS_CODE_THEME_DIR))
+      shutil.copytree(CWD, VS_CODE_THEME_DIR)
+
+    if os.path.exists(CODIUM_EXTENSION_DIR):
+      if os.path.exists(CODIUM_THEME_DIR):
+        print('Deleting Codium theme directory: "{}"'.format(CODIUM_THEME_DIR))
+        shutil.rmtree(CODIUM_THEME_DIR, ignore_errors=True)
+
+      print('Installing theme to "{}"'.format(CODIUM_THEME_DIR))
+      shutil.copytree(CWD, CODIUM_THEME_DIR)
+
   except Exception as e:
-    print('ERROR!!', e)
+    print(e)
     sys.exit(1)
