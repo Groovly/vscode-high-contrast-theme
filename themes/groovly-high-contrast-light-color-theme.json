@@ -1,6 +1,6 @@
 {
-  "name": "Groovly High Contrast (Dark)",
-  "type": "dark",
+  "name": "Groovly High Contrast (Light)",
+  "type": "light",
   "colors": {
     "foreground": "#000",
     "focusBorder": "#2196f3",
@@ -75,8 +75,8 @@
     "editor.selectionBackground": "#2196f370", // selected text background color
     "editor.inactiveSelectionBackground":"#999",
 
-    "editor.selectionHighlightBorder": "#0000",
-    "editor.selectionHighlightBackground": "#2196f370",
+    "editor.selectionHighlightBorder": "#2196f3",
+    "editor.selectionHighlightBackground": "#0000",
 
     "editor.rangeHighlightBorder":"#2196f3",
     "editor.findMatchBorder": "#2196f3",
